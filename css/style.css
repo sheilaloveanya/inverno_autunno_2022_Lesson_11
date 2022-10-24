@@ -1,0 +1,133 @@
+@import "reset.css";
+
+body {
+	width: 1230px;
+	height: 100%;
+	background-image: url('../img/clouds.jpeg');
+	background-size: cover;
+	
+}
+
+.wrapper {
+	max-width: 1230px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bg-box__clouds {
+	position: relative;
+}
+
+.bg-box__tree {
+	height: 130px;
+	width: 100%;
+	display: block;
+	background-image: url('../img/images.jpeg');
+	background-repeat: repeat-x;
+	position: absolute;
+	bottom: -140px;
+	left: 0;
+	right: 0;
+	z-index: 4;
+}
+.bg-box__road {
+	height: 140px;
+	width: 100%;
+	display: block;
+	background-image: url('../img/road.jpeg');
+	background-repeat: repeat-x;
+	position: absolute;
+	bottom: -250px;
+	left: 0;
+	right: 0;
+	z-index: 3;
+}
+
+.content__image {
+	width: 600px;
+	height: 300px;
+	left: 20%;
+	bottom: -130px;
+	position: absolute;
+	z-index: 4;
+}
+.content__front-will,
+.content__back-will {
+	width: 70px;
+	height: 70px;
+	left: 30%;
+	bottom: 105px;
+	position: absolute;
+	z-index: 5;
+
+	
+}
+.content__front-will {
+	left: 530px;
+	position: absolute;
+}
+.content__back-will {
+	left: 75px;
+	position: absolute;
+}
+
+.content__window {
+	width: 300px;
+	left: 27%;
+	bottom: 190px;
+	position: absolute;
+	z-index: 6;
+}
+.content__door {
+	width: 20px;
+	left: 50%;
+	bottom: 95px;
+	position: absolute;
+	z-index: 7;
+}
+.content__decor {
+	width: 50px;
+	left: 60%;
+	bottom: 210px;
+	position: absolute;
+	z-index: 8;
+
+}
+.content__doorhaddle {
+	width: 20px;
+	left: 58%;
+	bottom: 160px;
+	position: absolute;
+	z-index: 9;
+}
+.content__punto {
+	width: 20px;
+	left: 56%;
+	bottom: 165px;
+	position: absolute;
+	z-index: 10;	
+}
+.content__front-headligh {
+	width: 50px;
+	left: 122%;
+	bottom: 160px;
+	position: absolute;
+	z-index: 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
